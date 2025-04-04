@@ -508,8 +508,6 @@ margin: 0 auto;
 
 
 
-
-
 /* footer button */
 .footer-subscribe{
     margin-bottom: 16px;
@@ -559,58 +557,10 @@ margin: 0 auto;
     border-radius: 4px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon-email{
+    fill: #fff;
+    margin-left: 16px;
+}
 
 
 
