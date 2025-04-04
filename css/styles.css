@@ -753,9 +753,24 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .checkbox-form:checked+.checkbox-label .check-checkbox .checkbox-icon {
-    fill: var(--icon-fill);
+    fill: #F4F4FD;
+
+}
+.label-link {
+    color: #4d5ae5;
 }
 
+
+
+
+
+.checkbox-form:checked+.checkbox-label .check-checkbox {
+    background-color: #404bbf;
+}
+
+.checkbox-form:checked+.checkbox-label .check-checkbox .checkbox-icon {
+    fill: var(--icon-fill);
+}
 :root {
     --icon-fill: #F4F4FD;
 }
