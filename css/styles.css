@@ -456,7 +456,7 @@ margin: 0 auto;
     margin-top: 16px;
 }
 .footer-social{
-    margin-right: 120px
+    margin-right: 80px;
 }
 .footer-all{
     display: flex;
@@ -726,6 +726,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 .modal-checkbox{
     margin-bottom: 24px;
+
 }
 .modal-comment{
     margin-bottom: 16px;
@@ -771,6 +772,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 .input-contacts input:focus + .contacts-icons {
     fill: #4D5AE5;
 }
+
+
+
+
+
+
 .modal-button{
     display: block;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -791,6 +798,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
                     cursor: pointer;
                         border: none;
 }
+
 .visually-hidden{
     position: absolute;
         width: 1px;
@@ -817,6 +825,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .label-link {
     color: #4d5ae5;
+   
 }
 
 
@@ -839,5 +848,19 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
     background-color: #404bbf;
     fill: var(--icon-fill);
 }
+
+
+
+
+ .modal-button{
+     color: #ffffff;
+     cursor: pointer;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .modal-button:hover,
+ .modal-button:focus {
+     background-color: #404bbf;
+ }
 
 
